@@ -1,0 +1,50 @@
+body {
+  background-color: black;
+}
+
+tr {
+  border: 2px white solid;
+  color:white;
+}
+
+td {
+    border: 2px white solid;
+
+}
+
+th {
+  color: white;
+}
+
+#wholeTable {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:25%;
+}
+
+.tableData {
+  width:250px;
+  height: 250px;
+
+}
+
+#X {
+  width: 200px;
+  height: 200px;
+}
+
+#O {
+  width:200px;
+  height: 200px;
+}
+
+p {
+  color: white;
+}
+
+#header{
+  color: white;
+  padding-bottom: 40px;
+  font-size: 40px;
+}
