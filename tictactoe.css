@@ -1,14 +1,16 @@
 body {
   background-color: black;
+  background-image: url("http://previews.123rf.com/images/foxaon/foxaon1304/foxaon130400037/19330757-american-football-dark-grunge-background-Stock-Photo-field.jpg");
 }
 
+
 tr {
-  border: 2px white solid;
+  border: 2px white dashed;
   color:white;
 }
 
 td {
-    border: 2px white solid;
+    border: 2px white dashed;
 
 }
 
@@ -20,7 +22,8 @@ th {
   display:flex;
   justify-content: center;
   align-items: center;
-  margin-top:25%;
+  margin-top:15%;
+  margin-bottom: 25%;
 }
 
 .tableData {
@@ -44,7 +47,92 @@ p {
 }
 
 #header{
-  color: white;
+  color: black;
   padding-bottom: 40px;
-  font-size: 40px;
+  font-size: 50px;
+  border-style: solid white;
+  border-color: white;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#0{
+  background-color: yellow;
+}
+
+footer {
+  color: black;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.pictureOne {
+  width:250px;
+  height: 250px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-image: url("http://rack.1.mshcdn.com/media/ZgkyMDE1LzAxLzIzLzI5L2hvdHBvdGF0by42MjRjZi5naWYKcAl0aHVtYgk4NTB4ODUwPgplCWpwZw/713ab281/aa8/hot-potato.jpg");
+}
+
+.pictureTwo {
+  width:250px;
+  height: 250px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-image: url("http://24.media.tumblr.com/6f2401527f20dcde78d17292b66e9a05/tumblr_mrh4run1o41rfimo0o2_400.gif");
+}
+
+.pictureThree {
+  width:250px;
+  height: 250px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-image: url("http://rack.2.mshcdn.com/media/ZgkyMDE1LzAxLzIzLzBkL2ZhY2VwYWxtLjQwMjYxLmdpZgpwCXRodW1iCTg1MHg4NTA-CmUJanBn/5e87d168/dcd/facepalm.jpg");
+}
+
+.pictureFour {
+  width:250px;
+  height: 250px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-image: url("http://rack.0.mshcdn.com/media/ZgkyMDE1LzAxLzI1LzViL2JyYWR5LjVlZmU1LmdpZgpwCXRodW1iCTg1MHg4NTA-CmUJanBn/1b512aec/38f/brady.jpg");
+}
+
+.pictureFive {
+  width:250px;
+  height: 250px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-image: url("http://24.media.tumblr.com/6f2401527f20dcde78d17292b66e9a05/tumblr_mrh4run1o41rfimo0o2_400.gif");
+}
+
+.pictureSix {
+  width:250px;
+  height: 250px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-image: url("    http://rack.2.mshcdn.com/media/ZgkyMDE1LzAxLzIzLzUwL3NtZWxsaW5nZ2F0LmQ1Mjk0LmdpZgpwCXRodW1iCTg1MHg4NTA-CmUJanBn/ad803e6d/5df/smelling-gatorade.jpg");
+}
+
+.pictureSeven {
+  width:250px;
+  height: 250px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-image: url("http://2.bp.blogspot.com/-MN71npUfF1I/UnbuA3TJxDI/AAAAAAAADQ0/oMr8qQ0WKag/s1600/bradyhighv.gif");
+}
+
+.pictureEight {
+  width:250px;
+  height: 250px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-image:url("http://24.media.tumblr.com/6f2401527f20dcde78d17292b66e9a05/tumblr_mrh4run1o41rfimo0o2_400.gif");
+}
+
+.pictureNine {
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-image: url("http://rack.1.mshcdn.com/media/ZgkyMDE1LzAxLzIzL2U5L2JyYWR5aW5nLjQwMDY2LmdpZgpwCXRodW1iCTg1MHg4NTA-CmUJanBn/1d5b2d89/f86/bradying.jpg");
 }
