@@ -1,0 +1,183 @@
+body {
+  /*background-color: black;*/
+  background-image: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTDqlN3ZCWSxolJouXITHpt1r3WZnwBj3UV_c-VoSxs0kF93S8n");
+}
+
+#header{
+  color: white;
+  padding-bottom: 40px;
+  font-size: 50px;
+  border-style: solid white;
+  border-color: white;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.nameinputX {
+  color: white;
+  float: left;
+}
+
+.nameinputO {
+  color: white;
+  float: right;
+}
+
+/*#frm1 {
+  color: white;
+}*/
+
+
+tr {
+  border: 2px white dashed;
+  color:white;
+}
+
+td {
+    border: 2px white dashed;
+}
+
+th {
+  color: white;
+}
+
+#wholeTable {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:15%;
+  margin-bottom: 25%;
+}
+
+.tableData {
+  width:100px;
+  height: 100px;
+}
+
+#X {
+  width: 100px;
+  height: 100px;
+}
+
+#O {
+  width:100px;
+  height: 100px;
+}
+
+p {
+  color: white;
+}
+
+
+footer {
+  color: white;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.pictureOne {
+  width:100px;
+  height: 100px;
+  text-align: center;
+  background-repeat: no-repeat;
+}
+
+.pictureOne:hover {
+  background-image: url("zepptoberesized.jpg");
+  /*background-image: url("http://static.ddmcdn.com/gif/blogs/boston.jpg");*/
+}
+
+.pictureTwo {
+  width:100px;
+  height: 100px;
+  text-align: center;
+  background-repeat: no-repeat;
+}
+
+.pictureTwo:hover {
+  background-image: url("thewho.jpg");
+   /*url("http://ep.yimg.com/ay/gallerydirectart/the-who-rock-album-cover-art-on-stretched-oversize-archival-canvas-flag-2.jpg");*/
+}
+
+.pictureThree {
+  width:100px;
+  height: 100px;
+  text-align: center;
+  background-repeat: no-repeat;
+}
+
+.pictureThree:hover {
+  background-image: url("metallica1.jpg");
+  /*url("http://ultimateclassicrock.com/files/2013/02/metallica1.jpg");*/
+}
+
+.pictureFour {
+  width:100px;
+  height: 100px;
+  text-align: center;
+  background-repeat: no-repeat;
+}
+
+.pictureFour:hover {
+  background-image: url("doors.jpg");
+  /*url("https://images.rapgenius.com/1ea3ec7f9117443a7ad0f3655d1fa856.567x566x1.jpg");*/
+}
+
+.pictureFive {
+  width:100px;
+  height: 100px;
+  text-align: center;
+  background-repeat: no-repeat;
+}
+
+.pictureFive:hover {
+  background-image:url("stones.jpg");
+   /*url("https://static2.artfire.com/uploads/product/4/684/69684/9869684/9869684/large/the_rolling_stones_band_red_tongue_logo_32x24er__5b7ebbd1.jpg");*/
+}
+
+.pictureSix {
+  width:100px;
+  height: 100px;
+  text-align: center;
+  background-repeat: no-repeat;
+}
+
+.pictureSix:hover {
+  background-image: url("eagles.jpg");
+  /*url("http://i1273.photobucket.com/albums/y401/graystoke33/eagleslogo_zpsae66ceab.jpg");*/
+}
+
+.pictureSeven {
+  width:100px;
+  height: 100px;
+  text-align: center;
+  background-repeat: no-repeat;
+}
+
+.pictureSeven:hover {
+  background-image: url("moody.jpg");
+/*url("http://www.1029bobfm.com/Pics/AffinityClubs/150966/The_Moody_Blues-1-246-246-85-nocrop.GIF");*/
+}
+
+.pictureEight {
+  width:100px;
+  height: 100px;
+  text-align: center;
+  background-repeat: no-repeat;
+}
+
+.pictureEight:hover {
+  background-image:url("chili.jpg");
+   /*url("http://www.wbafest.com.br/control/img/upload/evento/_rhcp_logo4dc3d9_2014-07-29-101514.jpg");*/
+}
+
+.pictureNine {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  background-repeat: no-repeat;
+}
+
+.pictureNine:hover {
+  background-image: url("clapton.jpg");
+  /*url("http://cdn.imgs.steps.dragoart.com/how-to-draw-the-doors-step-4_1_000000002118_5.jpg");*/
+}
