@@ -4,17 +4,19 @@ var board = [0,0,0,
              0,0,0];
 var numberOfTurnsLeft = 9;
 var stop;
+
 // var nameO = document.getElementById("#nameinputO");
 // var nameX = document.getElementById("#nameinputX");
 
+
 function doItWithX(td, rowOffset) {
-  td.append("<img src ='X.png'/>");
+  td.append("<img src='X.png'/>");
   td.unbind('click');
   board[td.index()+rowOffset] = 1;
 };
 // a function to change a blank table data box to O img
 function doItWithO(td, rowOffset) {
-  td.append("<img src = 'O.png'/>");
+  td.append("<img src='O.png'/>");
   td.unbind('click');
   board[td.index() + rowOffset] = -1;
 };
@@ -26,7 +28,7 @@ function placeMarker(tdId, rowOffset){
   }
   else {
     doItWithO($("#"+tdId), rowOffset);
-    x=true;
+    x = true;
   }
 };
 
@@ -68,6 +70,8 @@ var nameO = document.getElementById("#nameinputO");
   // $("#player1score").text(player1score)
   // $("#player2score").text(player2score)
 
+//  jquery
+$(document).ready(function(){
   //functions to click on specific boxes and game counter function
   $("#0").click(function(){
     rowOffset = 0;
@@ -146,76 +150,77 @@ var nameO = document.getElementById("#nameinputO");
     return arr[index0] + arr[index1] + arr[index2];
   };
 
-
   function whoWon(arr){
     if (sumElements(arr, 0, 1, 2) === -3){
-      $("#header").html($("#nameinputO") + " Won!");
+      $("#header").html(Document.getElementById(nameinputX) + " Won!");
       stop= true;
     }
     else if (sumElements(arr, 3, 4, 5) === -3){
-      $("#header").html($("#nameinputO") + " Won!");
+      $("#header").html("O Won!");
       stop= true;
     }
     else if (sumElements(arr, 6, 7, 8) === -3){
-      $("#header").html($("#nameinputO") + " Won!");
+      $("#header").html("O Won!");
       stop= true;
     }
     else if (sumElements(arr, 0, 3, 6) === -3){
-      $("#header").html($("#nameinputO") + " Won!");
+      $("#header").html("O Won!");
       stop= true;
     }
     else if (sumElements(arr, 1, 4, 7) === -3){
-      $("#header").html($("#nameinputO") + " Won!");
+      $("#header").html("O Won!");
       stop= true;
     }
     else if (sumElements(arr, 2, 5, 8) === -3){
-      $("#header").html($("#nameinputO") + " Won!");
+      $("#header").html("O Won!");
       stop= true;
     }
     else if (sumElements(arr, 0, 4, 8) === -3){
-      $("#header").html($("#nameinputO") + " Won!");
+      $("#header").html("O Won!");
       stop= true;
     }
     else if (sumElements(arr, 2, 4, 6) === -3){
-      $("#header").html($("#nameinputO") + " Won!");
+      $("#header").html("O Won!");
       stop= true;
     }
     else if (sumElements(arr, 0, 1, 2) === 3) {
-      $("#header").html(nameX +" Won!");
+      $("#header").html("X Won!");
       stop= true;
     }
     else if (sumElements(arr, 3, 4, 5) === 3){
-      $("#header").html(nameX +" Won!");
+      $("#header").html("X Won!");
       stop= true;
     }
     else if (sumElements(arr, 6, 7, 8) === 3){
-      $("#header").html(nameX +" Won!");
+      $("#header").html("X Won!");
       stop= true;
     }
     else if (sumElements(arr, 0, 3, 6) === 3){
-      $("#header").html(nameX +" Won!");
+      $("#header").html("X Won!");
       stop= true;
     }
     else if (sumElements(arr, 1, 4, 7) === 3){
-      $("#header").html(nameX +" Won!");
+      $("#header").html("X Won!");
       stop= true;
     }
     else if (sumElements(arr, 2, 5, 8) === 3){
-      $("#header").html($("#nameX") + " Won!");
+      $("#header").html("X Won!");
       stop= true;
     }
     else if (sumElements(arr, 0, 4, 8) === 3){
-      $("#header").html(nameX +" Won!");
+      $("#header").html("X Won!");
       stop= true;
     }
     else if (sumElements(arr, 2, 4, 6) === 3){
-      $("#header").html(nameX +" Won!");
+      $("#header").html("X Won!");
+
       stop= true;
     }
 
      else ("");
 
   };
+
 
 });
 
@@ -244,3 +249,8 @@ var nameO = document.getElementById("#nameinputO");
  //  $("#like").click(function(){
  //  alert("Thanks!")
  //  });
+
+
+
+//when the board is full disable game and alert that the game is over
+});

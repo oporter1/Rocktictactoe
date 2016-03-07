@@ -26,7 +26,6 @@ body {
   color: white;
 }*/
 
-
 tr {
   border: 2px white dashed;
   color:white;
@@ -61,17 +60,45 @@ th {
 #O {
   width:100px;
   height: 100px;
+  width:250px;
+  height: 250px;
+}
+
+#X {
+  width: 200px;
+  height: 200px;
+}
+
+#O {
+  width:200px;
+  height: 200px;
 }
 
 p {
   color: white;
 }
 
+#header{
+  color: black;
+  padding-bottom: 40px;
+  font-size: 50px;
+  border-style: solid white;
+  border-color: white;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#0{
+  background-color: yellow;
+}
 
 footer {
   color: white;
   text-align: center;
   font-family: 'Quicksand', sans-serif;
+}
+
+#header {
+  color: white;
 }
 
 .pictureOne {
@@ -179,5 +206,68 @@ footer {
 
 .pictureNine:hover {
   background-image: url("clapton.jpg");
-  /*url("http://cdn.imgs.steps.dragoart.com/how-to-draw-the-doors-step-4_1_000000002118_5.jpg");*/
 }
+
+/*.pictureTwo {
+  width:250px;
+  height: 250px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-image: url("http://24.media.tumblr.com/6f2401527f20dcde78d17292b66e9a05/tumblr_mrh4run1o41rfimo0o2_400.gif");
+}*/
+
+/*.pictureThree {
+  width:250px;
+  height: 250px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-image: url("http://rack.2.mshcdn.com/media/ZgkyMDE1LzAxLzIzLzBkL2ZhY2VwYWxtLjQwMjYxLmdpZgpwCXRodW1iCTg1MHg4NTA-CmUJanBn/5e87d168/dcd/facepalm.jpg");
+}*/
+
+/*.pictureFour {
+  width:250px;
+  height: 250px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-image: url("http://rack.0.mshcdn.com/media/ZgkyMDE1LzAxLzI1LzViL2JyYWR5LjVlZmU1LmdpZgpwCXRodW1iCTg1MHg4NTA-CmUJanBn/1b512aec/38f/brady.jpg");
+}*/
+
+/*.pictureFive {
+  width:250px;
+  height: 250px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-image: url("http://24.media.tumblr.com/6f2401527f20dcde78d17292b66e9a05/tumblr_mrh4run1o41rfimo0o2_400.gif");
+}*/
+
+/*.pictureSix {
+  width:250px;
+  height: 250px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-image: url("    http://rack.2.mshcdn.com/media/ZgkyMDE1LzAxLzIzLzUwL3NtZWxsaW5nZ2F0LmQ1Mjk0LmdpZgpwCXRodW1iCTg1MHg4NTA-CmUJanBn/ad803e6d/5df/smelling-gatorade.jpg");
+}*/
+
+/*.pictureSeven {
+  width:250px;
+  height: 250px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-image: url("http://2.bp.blogspot.com/-MN71npUfF1I/UnbuA3TJxDI/AAAAAAAADQ0/oMr8qQ0WKag/s1600/bradyhighv.gif");
+}*/
+
+/*.pictureEight {
+  width:250px;
+  height: 250px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-image:url("http://24.media.tumblr.com/6f2401527f20dcde78d17292b66e9a05/tumblr_mrh4run1o41rfimo0o2_400.gif");
+}*/
+
+/*.pictureNine {
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-image: url("http://rack.1.mshcdn.com/media/ZgkyMDE1LzAxLzIzL2U5L2JyYWR5aW5nLjQwMDY2LmdpZgpwCXRodW1iCTg1MHg4NTA-CmUJanBn/1d5b2d89/f86/bradying.jpg");
+}*/
